@@ -1,0 +1,15 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "Gestor de Biblioteca - pruebas Cypress",
+  "scripts": {
+    "start": "http-server public -p 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^16.2.0",
+    "http-server": "^14.1.1"
+  }
+}
