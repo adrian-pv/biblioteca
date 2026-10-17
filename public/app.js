@@ -56,10 +56,10 @@ document.getElementById("btn-agregar").addEventListener("click", () => {
   }
 
   // Validación: no se permiten 0 copias (ni valores inválidos)
-  // if (isNaN(copias) || copias <= 0) {
-  //   formMsg.textContent = "El número de copias debe ser mayor a 0.";
-  //   return;
-  // }
+  if (isNaN(copias) || copias <= 0) {
+    formMsg.textContent = "El número de copias debe ser mayor a 0.";
+    return;
+  }
 
   formMsg.textContent = "";
   const libros = cargarLibros();
